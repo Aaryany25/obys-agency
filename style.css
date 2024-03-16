@@ -9,6 +9,16 @@ html,body{
     width: 100%;
     height: 100%;
 }
+#crsr{
+    width: 2.3vw;
+    height: 2.3vw;
+   border:1px solid white;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 99;
+    mix-blend-mode: difference;
+    transform: translate(-50%,-50%);
+}
 #loader{
     height: 100%;
     width: 100%;
@@ -93,8 +103,40 @@ html,body{
     background-color: #030303;
     position: relative;
 }
+/***************************************Page1*********************************************/
 #page1{
     width: 100%;
     height: 100vh;
     background-color: #151515;
+}
+#page1 #nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.5vh 4.5vw;
+}
+#page1 #navPart2{
+    display: flex;
+    align-items: center;
+    gap: 3.5vw;
+    
+}
+
+#navPart2 h3{
+    font-weight: 500;
+    font-size: 1vw;
+}
+/*************************************Hero***********************************************/
+.hero{
+    margin-left: 15vw;
+    width: 70%;
+    height: 80%;
+    padding: 9vw 10vw ;
+    
+}
+
+.hero h1{
+    font-weight: 600;
+    font-size: 5.5vw;
+    line-height: 7vw;
 }
