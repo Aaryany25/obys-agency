@@ -31,7 +31,7 @@ function LoadingAnimation() {
   tl.to("#loader", {
     opacity: 0,
     duration: 0.1,
-    delay: 3,
+    delay: 1,
   });
 
   tl.from("#page1", {
@@ -43,6 +43,15 @@ function LoadingAnimation() {
   tl.to("#loader", {
     display: "none",
   });
+  tl.from("#nav",{
+    opacity:0
+  })
+  tl.from(".hero h1",{
+    y: 100,
+    duration: 0.5,
+    opacity:0,
+    stagger: 0.3,
+  })
 }
 function CursurAnimation() {
   document.addEventListener("mousemove", function (dets) {
