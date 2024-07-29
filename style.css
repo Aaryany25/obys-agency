@@ -142,6 +142,15 @@ body {
   text-transform: uppercase;
   position: relative;
 }
+.hero #Number::before{
+  content: "01";
+  font-size: 3vw;
+  position: absolute;
+  font-weight: 100;
+  font-family: "silk serif";
+  left: -20%;
+  top:10%;
+}
 .hero2 {
   border-bottom: 0.5vw solid white;
   padding-bottom: 0.4vw;
@@ -203,10 +212,35 @@ body {
 #page3 {
   min-height: 100vh;
   width: 100%;
-  background-color: red;
+  /* background-color: red; */
   position: relative;
+  padding: 7vh 0;
+}
+#page3 h1{
+  font-size: 6vw;
+  text-transform: uppercase;
+  position: relative;
+  margin-left: 25vw;
+}
+#page3 h1::before{
+  content: "02";
+  font-size: 3vw;
+  position: absolute;
+  font-weight: 100;
+  font-family: "silk serif";
+  left: -20%;
+  top:2%;
+}
+#page3 .underline {
+  margin-left: 25vw;
 }
 /* **************************************Page 3*************************************************** */
+
+
+
+
+
+
 /**************************************Page4*******************************************************/
 #page4 {
   min-height: 100vh;
@@ -222,8 +256,17 @@ body {
   position: relative;
 }
 #page4-content h1{
-  font-size: 7vw;
+  font-size: 6vw;
   text-transform: uppercase;
+}
+#page4-content h1::before{
+  content: "03";
+  font-size: 3vw;
+  position: absolute;
+  font-weight: 100;
+  font-family: "silk serif";
+  left: -20%;
+  top:2%;
 }
  .underline{
   height: 2px;
@@ -314,7 +357,7 @@ margin-bottom: 2vw;
   width: 100%;
   /* background-color: rgb(13, 13, 13); */
   position: relative;
-  padding: 6vh 0;
+  padding: 7vh 0;
   
 }
 #footer-content{
@@ -335,8 +378,8 @@ margin-bottom: 2vw;
   position: absolute;
   font-weight: 100;
   font-family: "silk serif";
-  left: -12%;
-  top:10%;
+  left: -20%;
+  top:5%;
 }
 #footer-content h1:hover{
   font-size: 7vw;
