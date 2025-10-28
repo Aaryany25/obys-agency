@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Obys Agengy</title>
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+       <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
-    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sheryjs/dist/Shery.css" /> -->
     <link
     href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
     rel="stylesheet"
@@ -15,7 +16,7 @@
   </head>
   <body>
     <div id="crsr"></div>
-    <div id="loader">
+    <!-- <div id="loader">
       <div class="line">
         <div id="part1">
           <h5>00</h5>
@@ -30,7 +31,7 @@
         <h1>is Loading Right</h1>
         <h2>Now</h2>
       </div>
-    </div>
+    </div> -->
     <div id="main">
       <div id="page1"  data-scroll >
         <div id="nav">
@@ -104,11 +105,21 @@
         </div>
         
       </div>
-      <!-- <div id="page3" data-scroll data-scroll-speed="-1.5">
+      <div id="page3" data-scroll data-scroll-speed="-1.5">
         <h1>Our Projects  </h1>
         <div class="underline"></div>
-      </div> -->
-     <div id="page4" data-scroll data-scroll-speed="-1.5">
+        <div id="image-div-container">
+<!-- <div class="images">
+  <img src="img1-1.jpg" />
+  <img src="img1-2.jpg" />
+</div> -->
+<div class="images">
+  <img src="img2-1.jpg" />
+  <img src="img2-2.jpg" />
+</div>
+        </div>
+      </div>
+     <div id="page4" data-scroll data-scroll-speed="-2.5">
       <div id="page4-content">
         <h1>About Obys </h1>
         <div class="underline"></div>
@@ -186,7 +197,7 @@
           <div class="underline"></div>
           </div>
       </div>
-      <div id="page5" data-scroll>
+      <div id="page5" data-scroll data-scroll-speed="-1.5">
         <div class="elem">
           <h1>Fashion - Sports - Technology -</h1>
           <h1>Fashion - Sports - Technology -</h1>
@@ -237,28 +248,31 @@
       </div>
      </div>
     </div>
+    <!-- Locomotive -->
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <!-- GSAP -->
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
       integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+    <!-- ScrollTrigger -->
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
       integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-    <script
-      type="text/javascript"
-      src="https://unpkg.com/sheryjs/dist/Shery.js"
-    ></script>
-    
+    <!-- SheryJs -->
+<!-- <script type="text/javascript" src="Shery.js"></script> -->
+
+<!-- Three.js is needed for 3d Effects -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
 
-
+<!-- ControlKit is needed for Debug Panel -->
 <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
-    <script src="script.js"></script>
+       <script  type="text/javascript"  src="https://unpkg.com/sheryjs/dist/Shery.js"></script>
 
+<script src="script.js"></script>
 </html>
