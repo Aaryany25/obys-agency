@@ -104,7 +104,7 @@ function SheryAnimation(){
   gooey: true,
 });
 }
-// LoadingAnimation();
+LoadingAnimation();
 CursurAnimation();
 locomotiveAnimation()
 SheryAnimation()
